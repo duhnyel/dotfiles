@@ -4,9 +4,16 @@
 mkdir ~/.config/kitty
 mkdir ~/.config/sway
 
+#removes old files
+rm ~/.p10k.zsh
+rm ~/.config/sway/config
+rm ~/.config/kitty/kitty.conf
+rm ~/.gitconfig
+rm ~/.zshrc
+
 #links files
-ln -s ~/.dotfiles/dots/.p10k.zsh ~/.p10k.zsh
-ln -s ~/.dotfiles/dots/config.sway ~/.config/sway/config
-ln -s ~/.dotfiles/dots/kitty.conf ~/.config/kitty/kitty.conf
-ln -s ~/.dotfiles/dots/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/dots/.zshrc ~/.zshrc
+ln ~/.dotfiles/dots/.p10k.zsh ~/.p10k.zsh
+ln ~/.dotfiles/dots/config.sway ~/.config/sway/config
+ln ~/.dotfiles/dots/kitty.conf ~/.config/kitty/kitty.conf
+ln ~/.dotfiles/dots/.gitconfig ~/.gitconfig
+ln ~/.dotfiles/dots/.zshrc ~/.zshrc

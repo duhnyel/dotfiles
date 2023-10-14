@@ -1,0 +1,16 @@
+choco install eartrumpet
+winget install Discord.Discord 
+winget install OBSProject.OBSStudio
+choco install spotify
+winget install Valve.Steam
+winget install EpicGames.EpicGamesLauncher
+winget install Microsoft.PowerToys
+winget install PrismLauncher.PrismLauncher
+winget install Mozilla.Firefox              
+winget install Azul.Zulu.7.JDK   
+winget install Azul.ZuluFX.17.JDK
+winget install RARLab.WinRAR
+winget install Obsidian.Obsidian
+winget install VideoLAN.VLC
+winget install Microsoft.VisualStudioCode
+choco install gimp

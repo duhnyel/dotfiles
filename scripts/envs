@@ -1,0 +1,5 @@
+#!/bin/zsh
+
+echo envs loaded
+
+export BG="~/pictures/walls/wallpaper2.png"

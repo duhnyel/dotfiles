@@ -8,4 +8,5 @@
 utilities:
 1. pywal
 
-
+## TODO:
+- improve processes
